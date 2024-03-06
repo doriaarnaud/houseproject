@@ -9,7 +9,7 @@ let tabrent=ref([
     title1:"RENT A HOME",
     title2:"Rental home",
     title3:"for Everyone",
-    title4:"Explore from Appartments, builder floor, villas and more",
+    title4:"Explore from Apartments, builder floor, villas and more",
     buttontitle:"Explore Renting"
   }
 ])
@@ -20,7 +20,7 @@ let tabsale=ref([
     title1:"BUY A HOME",
     title2:"Find,Buy & Own Your",
     title3:"Dream Home",
-    title4:"Explore Appartments, Villas, Homes and more",
+    title4:"Explore Apartments, Villas, Homes and more",
     buttontitle:"Explore Buying"
   }
 ])
