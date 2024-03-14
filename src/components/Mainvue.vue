@@ -745,7 +745,7 @@ function gotosuggestion()
             color="#15a2ff"
       ></v-progress-circular>
   </div>
-  <v-conainer id="home">
+  <v-container id="home">
     <Banner v-for="doss in tabrent" :key="doss.id" v-if="isrentbannerloaded"
             :houseimage="doss.houseimage"
             :title1="doss.title1"
@@ -755,7 +755,7 @@ function gotosuggestion()
             :buttontitle="doss.buttontitle"
             @exploring="scroll('rent')">
     </Banner>
-  </v-conainer>
+  </v-container>
 
     <v-container id="rent" v-if="isrentcontainerloaded">
       <div class="renthousecontainer">
@@ -878,7 +878,7 @@ function gotosuggestion()
       </div>
     </v-container>
     <v-footer v-if="isfootershow" color="#000000">
-
+        <p class="text-subtitle-1">All the images are intentionally distorted but not a bugs.</p>
     </v-footer>
 </template>
 
